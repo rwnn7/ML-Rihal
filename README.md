@@ -1,4 +1,3 @@
-# ML-Rihal
 # Crime Analytics and Prediction Dashboard
 
 ## Project Overview
@@ -31,11 +30,13 @@ To run the app, you'll need to follow a few simple steps:
 Before running the app, download the following necessary resources:
 
 - **ensemble_model.pkl**: The pre-trained machine learning model for crime prediction.
+  - [Download ensemble_model.pkl](https://drive.google.com/file/d/1CMCv_E9c2bccW5BTCMgRhTLCUa9MuCk6/view?usp=sharing)
 - **label_encoder.pkl**: The label encoder for converting categorical labels into numerical format.
+  - [Download label_encoder.pkl](https://drive.google.com/file/d/1nThRqTwzbBzwTfV8tpdN29DycyazxOQj/view?usp=sharing)
 - **vectorizer.pkl**: The TF-IDF vectorizer used to transform the text descriptions of crimes into numerical data.
+  - [Download vectorizer.pkl](https://drive.google.com/file/d/18Y5jpf30U1nAQO_8CV97_rmWVvA1_blz/view?usp=sharing)
 - **Updated_Competition_Dataset.csv**: The dataset containing historical crime data for analysis.
-
-You can download these files from the links provided in the project documentation.
+  - [Download Updated_Competition_Dataset.csv](https://drive.google.com/file/d/1K9zkdAE2dm6IWG6XuRXZIgD0MjZ73mhk/view?usp=sharing)
 
 ### 2. Project Structure:
 Ensure that the following files are placed in the root directory of your project:
