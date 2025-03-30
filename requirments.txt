@@ -10,15 +10,3 @@ streamlit-folium==0.10.0
 pdfplumber==0.8.0
 scikit-learn==1.0.2
 
-# Additional instructions for downloading necessary resources:
-#
-# Before running the app, download the following resources:
-#
-# - Download ensemble_model.pkl from: https://drive.google.com/file/d/1CMCv_E9c2bccW5BTCMgRhTLCUa9MuCk6/view?usp=sharing
-# - Download label_encoder.pkl from: https://drive.google.com/file/d/1nThRqTwzbBzwTfV8tpdN29DycyazxOQj/view?usp=sharing
-# - Download vectorizer.pkl from: https://drive.google.com/file/d/18Y5jpf30U1nAQO_8CV97_rmWVvA1_blz/view?usp=sharing
-# - Download Updated_Competition_Dataset.csv from: https://drive.google.com/file/d/1K9zkdAE2dm6IWG6XuRXZIgD0MjZ73mhk/view?usp=sharing
-#
-#  After downloading, please place all these files together with the (app.py) file in the root directory of your project, and then run (app.py).
-
-
