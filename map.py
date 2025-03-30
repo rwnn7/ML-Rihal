@@ -10,14 +10,15 @@ import pdfplumber
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.preprocessing import LabelEncoder
 
+# Please download the necessary files listed in the (requirements.txt) first, and then run this code.
 #Load pre-trained model and other resources 
 model = joblib.load('ensemble_model.pkl') 
 label_encoder = joblib.load('label_encoder.pkl')  
 vectorizer = joblib.load('vectorizer.pkl')  
 
 #Load dataset 
-# df = pd.read_csv("Updated_Competition_Dataset.csv")
-# uncomment this to run the code 
+ df = pd.read_csv("Updated_Competition_Dataset.csv")
+
 
 #Remove timestamp column if present
 if 'Date' in df.columns:
